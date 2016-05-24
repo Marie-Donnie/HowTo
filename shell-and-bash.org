@@ -1,0 +1,53 @@
+* Shell/Bash
+** Content			     :TOC@4:noexport:
+ - [[#shellbash][Shell/Bash]]
+   - [[#find][Find]]
+     - [[#links][Links]]
+     - [[#syntax][Syntax]]
+     - [[#find-in-the-sub-folder-test-the-files-which-name-is-ending-with-txt-recursively][Find in the sub-folder 'test' the files which name is ending with txt, recursively]]
+     - [[#find-in-the-sub-folder-test-the-files-ending-with-php-ignoring-the-case][Find in the sub-folder 'test' the files ending with php, ignoring the case]]
+     - [[#find-in-the-sub-folder-test-the-files-not-ending-with-php][Find in the sub-folder 'test' the files not ending with php]]
+   - [[#grep][Grep]]
+     - [[#links-1][Links]]
+     - [[#files-not-matching-][Files not matching ]]
+   - [[#bash-escape-single-quotes][Bash escape single quotes]]
+   - [[#command-et-command][$(Command) et `command`]]
+   - [[#redirect-standard-output-to-a-file-and-stdout][Redirect standard output to a file AND stdout]]
+   - [[#tee][Tee]]
+
+** Find
+*** Links
+[[http://www.binarytides.com/linux-find-command-examples/][Find command examples]]
+
+*** Syntax
+=> find location comparison-criteria search-term
+
+*** Find in the sub-folder 'test' the files which name is ending with txt, recursively
+: find ./test -name "*.txt"
+
+*** Find in the sub-folder 'test' the files ending with php, ignoring the case
+: find ./test -iname "*.Php"
+
+*** Find in the sub-folder 'test' the files not ending with php
+
+find ./test -not -name "*.php"
+** Grep
+*** Links
+[[http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/][Practical usage]]
+
+*** Files not matching 
+: grep -L (or --files-without-match)
+
+** Bash escape single quotes
+[[http://stackoverflow.com/questions/1250079/how-to-escape-single-quotes-within-single-quoted-strings][Explanations]]
+See next section for more information
+
+** $(Command) et `command`
+[[http://stackoverflow.com/questions/4708549/whats-the-difference-between-command-and-command-in-shell-programming][Difference]]
+From what I understood, use $() version preferably.
+
+** Redirect standard output to a file AND stdout
+[[http://stackoverflow.com/questions/418896/how-to-redirect-output-to-a-file-and-stdout][Link]]
+
+** Tee
+[[http://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html][Tee]]
