@@ -1,6 +1,7 @@
 * Shell/Bash
 ** Content			     :TOC@4:noexport:
  - [[#shellbash][Shell/Bash]]
+   - [[#difference-between-sh-and-bash][Difference between sh and bash]]
    - [[#find][Find]]
      - [[#links][Links]]
      - [[#syntax][Syntax]]
@@ -14,6 +15,10 @@
    - [[#command-et-command][$(Command) et `command`]]
    - [[#redirect-standard-output-to-a-file-and-stdout][Redirect standard output to a file AND stdout]]
    - [[#tee][Tee]]
+   - [[#links-2][Links]]
+
+** Difference between sh and bash
+[[http://stackoverflow.com/questions/5725296/difference-between-sh-and-bash][Link]]
 
 ** Find
 *** Links
@@ -51,3 +56,8 @@ From what I understood, use $() version preferably.
 
 ** Tee
 [[http://www.gnu.org/software/coreutils/manual/html_node/tee-invocation.html][Tee]]
+
+
+** Links
++ [[http://linuxcommand.org/learning_the_shell.php][Learning the shell]]
++ [[http://hacktux.com/bash/script/efficient][About bash efficiency]] (hehe)

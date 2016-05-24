@@ -11,6 +11,13 @@
      - [[#select-packages][Select packages]]
      - [[#recommanded-packages][Recommanded packages]]
        - [[#for-org][For org]]
+     - [[#recommended-options][Recommended options]]
+       - [[#insert-over-selected-text][Insert over selected text]]
+       - [[#show-parenthesis-matching][Show parenthesis matching]]
+   - [[#basics-and-default-keybindings][Basics and default keybindings]]
+     - [[#ctrl-and-alt][CTRL and ALT]]
+     - [[#cutcopypaste][Cut/Copy/Paste]]
+     - [[#undo-][Undo ]]
    - [[#divide-a-buffer][Divide a buffer]]
      - [[#vertically-][Vertically ]]
      - [[#horizontally][Horizontally]]
@@ -21,9 +28,11 @@
      - [[#decrease-width][Decrease width]]
      - [[#make-all-windows-same-heightwidth][Make all windows same height/width]]
      - [[#more-on-the-subject][More on the subject]]
+   - [[#links][Links]]
 
 ** Getting emacs
 : sudo apt-get install emacs
+I suggest doing the tutorial to be able to use some of emacs basic functionnalities.
 
 ** Emacs config file
 *** Where ?
@@ -50,22 +59,50 @@ Or ~Options~ -> ~Manage Emacs Packages~
 + org
 + toc-org (to make a table of content)
 
+*** Recommended options
+You can activate options with the command, but then you have to save them for next sessions : ~Options~ -> ~Customize Emacs~ -> ~Saved Options~ and change State to Save for future sessions. Don't forget to apply and save before quitting.
+Don't forget when you are typing something, you can tab to show possible completions or autocomplete.
+**** Insert over selected text
+: M-x delete-selection-mode
+**** Show parenthesis matching
+: M-x show-paren-mode
+
+
+** Basics and default keybindings
+*** CTRL and ALT
+In emacs, commands are often used with CONTROL (ctrl) or META (alt). When you find a keybinding, it's usually written like this : ~C-w~ or ~M-x~.
+It means you have to maintain ctrl or alt pressed and hit the other key. When you see something like C-x C-f, it's the same but in two times. You can keep the ctrl button pressed while hitting x then f, or not, either way is ok.
+
+*** Cut/Copy/Paste
+: C-w / M-w / M-y
+
+*** Undo 
+: C-x u
+Don't keep the ctrl button pressed while hitting u.
+
+
+
 ** Divide a buffer
 *** Vertically 
-: Ctrl+x (maj)3
+: C-x (maj)3
 *** Horizontally
-: Ctrl+x (maj)2
+: C-x (maj)2
 *** Go back to only one window
-: Ctrl+x (maj)1
+: C-x (maj)1
 
 ** Change windows' size without the mouse
 *** Increase height
-: Ctrl+x (alt gr)^
+: C-x (alt gr)^
 *** Increase width
-: Ctrl+x (alt gr)}
+: C-x (alt gr)}
 *** Decrease width
-: Ctrl+x (alt gr){
+: C-x (alt gr){
 *** Make all windows same height/width
-: Ctrl+x +
+: C-x +
 *** More on the subject
 http://stackoverflow.com/questions/4987760/how-to-change-size-of-split-screen-emacs-windows
+
+
+
+** Links
+[[https://www.emacswiki.org/emacs/][Emacs wiki]]
