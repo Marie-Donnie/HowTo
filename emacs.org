@@ -1,43 +1,71 @@
 * EMACS
+** Content			     :TOC@4:noexport:
+ - [[#emacs][EMACS]]
+   - [[#getting-emacs][Getting emacs]]
+   - [[#emacs-config-file][Emacs config file]]
+     - [[#where-][Where ?]]
+     - [[#emacs-load][Emacs load]]
+     - [[#a-good-archive-for-packages][A good archive for packages]]
+   - [[#customize-emacs][Customize emacs]]
+     - [[#change-theme][Change theme]]
+     - [[#select-packages][Select packages]]
+     - [[#recommanded-packages][Recommanded packages]]
+       - [[#for-org][For org]]
+   - [[#divide-a-buffer][Divide a buffer]]
+     - [[#vertically-][Vertically ]]
+     - [[#horizontally][Horizontally]]
+     - [[#go-back-to-only-one-window][Go back to only one window]]
+   - [[#change-windows-size-without-the-mouse][Change windows' size without the mouse]]
+     - [[#increase-height][Increase height]]
+     - [[#increase-width][Increase width]]
+     - [[#decrease-width][Decrease width]]
+     - [[#make-all-windows-same-heightwidth][Make all windows same height/width]]
+     - [[#more-on-the-subject][More on the subject]]
 
-** Obtenir emacs
+** Getting emacs
 : sudo apt-get install emacs
 
-** Fichier de conf d'emacs
-*** Où ?
+** Emacs config file
+*** Where ?
 : ~/.emacs
-*** Chargement d'emacs
-Tout ce qui se trouve avant ~(require 'org)~ est chargé avant emacs
-*** Une archive de package
+*** Emacs load
+In .emacs, everything before ~(require 'org)~ is loaded before org
+*** A good archive for packages
 #+BEGIN_EXAMPLE
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/"))
 #+END_EXAMPLE
-Mettre ce code avant le chargement ( ~(require 'org)~ )
+Just put those lines in .emacs file before org is loaded. ( ~(require 'org)~ )
 
-** Personnaliser emacs
-*** Changer le theme
+** Customize emacs
+*** Change theme
 ~Options~ -> ~Customize Emacs~ -> ~Custom Themes~
 
-*** Sélectionner les packages
+*** Select packages
 : Alt+x list-packages
-Ou ~Options~ -> ~Manage Emacs Packages~
+Or ~Options~ -> ~Manage Emacs Packages~
 
-** Diviser un buffer
-*** Verticalement 
+*** Recommanded packages
+**** For org
++ org
++ toc-org (to make a table of content)
+
+** Divide a buffer
+*** Vertically 
 : Ctrl+x (maj)3
-*** Horizontalement 
+*** Horizontally
 : Ctrl+x (maj)2
-*** Revenir à un seul buffer 
+*** Go back to only one window
 : Ctrl+x (maj)1
 
-** Changer la taille des fenêtres sans la souris 
-http://ergoemacs.org/emacs/emacs_winner_mode.html
-*** Augmenter la hauteur
+** Change windows' size without the mouse
+*** Increase height
 : Ctrl+x (alt gr)^
-*** Augmenter la largeur
+*** Increase width
 : Ctrl+x (alt gr)}
-*** Diminuer la largeur 
+*** Decrease width
 : Ctrl+x (alt gr){
-*** Equilibrer les fenêtres 
+*** Make all windows same height/width
 : Ctrl+x +
+*** More on the subject
+http://stackoverflow.com/questions/4987760/how-to-change-size-of-split-screen-emacs-windows
