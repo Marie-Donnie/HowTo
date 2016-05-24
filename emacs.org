@@ -1,0 +1,42 @@
+
+* Obtenir emacs
+: sudo apt-get install emacs
+
+* Fichier de conf d'emacs
+** Où ?
+: ~/.emacs
+** Chargement d'emacs
+Tout ce qui se trouve avant ~(require 'org)~ est chargé avant emacs
+** Une archive de package
+#+BEGIN_EXAMPLE
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/"))
+#+END_EXAMPLE
+Mettre ce code avant le chargement ( ~(require 'org)~ )
+
+* Personnaliser emacs
+** Changer le theme
+~Options~ -> ~Customize Emacs~ -> ~Custom Themes~
+
+** Sélectionner les packages
+: Alt+x list-packages
+Ou ~Options~ -> ~Manage Emacs Packages~
+
+* Diviser un buffer
+** Verticalement 
+: Ctrl+x (maj)3
+** Horizontalement 
+: Ctrl+x (maj)2
+** Revenir à un seul buffer 
+: Ctrl+x (maj)1
+
+* Changer la taille des fenêtres sans la souris 
+http://ergoemacs.org/emacs/emacs_winner_mode.html
+** Augmenter la hauteur
+: Ctrl+x (alt gr)^
+** Augmenter la largeur
+: Ctrl+x (alt gr)}
+** Diminuer la largeur 
+: Ctrl+x (alt gr){
+** Equilibrer les fenêtres 
+: Ctrl+x +
