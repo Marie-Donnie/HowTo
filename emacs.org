@@ -14,10 +14,11 @@
      - [[#recommended-options][Recommended options]]
        - [[#insert-over-selected-text][Insert over selected text]]
        - [[#show-parenthesis-matching][Show parenthesis matching]]
-   - [[#basics-and-default-keybindings][Basics and default keybindings]]
+   - [[#basic-and-default-keybindings][Basic and default keybindings]]
      - [[#ctrl-and-alt][CTRL and ALT]]
      - [[#cutcopypaste][Cut/Copy/Paste]]
      - [[#undo-][Undo ]]
+     - [[#case-conversion][Case conversion]]
    - [[#divide-a-buffer][Divide a buffer]]
      - [[#vertically-][Vertically ]]
      - [[#horizontally][Horizontally]]
@@ -68,7 +69,7 @@ Don't forget when you are typing something, you can tab to show possible complet
 : M-x show-paren-mode
 
 
-** Basics and default keybindings
+** Basic and default keybindings
 *** CTRL and ALT
 In emacs, commands are often used with CONTROL (ctrl) or META (alt). When you find a keybinding, it's usually written like this : ~C-w~ or ~M-x~.
 It means you have to maintain ctrl or alt pressed and hit the other key. When you see something like C-x C-f, it's the same but in two times. You can keep the ctrl button pressed while hitting x then f, or not, either way is ok.
@@ -81,6 +82,13 @@ It means you have to maintain ctrl or alt pressed and hit the other key. When yo
 Don't keep the ctrl button pressed while hitting u.
 
 
+*** Case conversion
++ Convert the following word to lower case
+: M-l
++ Convert the following word to upper case
+: M-u
++ Put the first letter of the following word into upper case and the rest into lower case
+: M-c
 
 ** Divide a buffer
 *** Vertically 
