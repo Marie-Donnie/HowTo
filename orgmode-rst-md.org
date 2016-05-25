@@ -1,0 +1,23 @@
+* Content      :TOC@4:noexport:
+ - [[#org][org]]
+   - [[#verbatim-et-code-inline][Verbatim et code inline]]
+   - [[#links][Links]]
+ - [[#rst][rst]]
+ - [[#md][md]]
+
+* org
+
+** Verbatim et code inline
+http://stackoverflow.com/questions/16186843/inline-code-in-org-mode
+
+** Links
+[[http://orgmode.org/org.html][Manual]]
+
+* rst
+
+[[http://docutils.sourceforge.net/docs/ref/rst/directives.html][Directives]]
+[[https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst][Cheat Sheet]]
+
+* md
+
+[[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet][Cheat Sheet]]

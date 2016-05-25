@@ -1,5 +1,4 @@
-* EMACS
-** Content			     :TOC@4:noexport:
+* Content 						     :TOC@4:noexport:
  - [[#emacs][EMACS]]
    - [[#getting-emacs][Getting emacs]]
    - [[#emacs-config-file][Emacs config file]]
@@ -30,6 +29,8 @@
      - [[#make-all-windows-same-heightwidth][Make all windows same height/width]]
      - [[#more-on-the-subject][More on the subject]]
    - [[#links][Links]]
+
+* EMACS
 
 ** Getting emacs
 : sudo apt-get install emacs
