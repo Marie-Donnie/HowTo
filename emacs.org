@@ -59,7 +59,7 @@ Or ~Options~ -> ~Manage Emacs Packages~
 *** Recommanded packages
 **** For org
 + org
-+ toc-org (to make a table of content)
++ [[https://github.com/snosov1/toc-org][toc-org]] (to make a table of content)
 
 *** Recommended options
 You can activate options with the command, but then you have to save them for next sessions : ~Options~ -> ~Customize Emacs~ -> ~Saved Options~ and change State to Save for future sessions. Don't forget to apply and save before quitting.
