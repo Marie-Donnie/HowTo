@@ -1,19 +1,19 @@
-* GITHUB
-** Content			     :TOC@4:noexport:
+* Content			     :TOC@4:noexport:
  - [[#github][GITHUB]]
-     - [[#change-github-repository-url-locally-httpsssh][Change github repository url (locally https/ssh)]]
-     - [[#configure-a-remote-for-a-fork][Configure a remote for a fork]]
-     - [[#make-a-repository-from-a-non-empty-folder][Make a repository from a non empty folder]]
-     - [[#pick-only-a-few-files-to-be-uploaded-from-a-git-folder][Pick only a few files to be uploaded from a git folder]]
-     - [[#links][Links]]
+   - [[#change-github-repository-url-locally-httpsssh][Change github repository url (locally https/ssh)]]
+   - [[#configure-a-remote-for-a-fork][Configure a remote for a fork]]
+   - [[#make-a-repository-from-a-non-empty-folder][Make a repository from a non empty folder]]
+   - [[#pick-only-a-few-files-to-be-uploaded-from-a-git-folder][Pick only a few files to be uploaded from a git folder]]
+   - [[#links][Links]]
 
-*** Change github repository url (locally https/ssh)
+* GITHUB
+** Change github repository url (locally https/ssh)
 [[https://help.github.com/articles/changing-a-remote-s-url/][Https to ssh or vice-versa]]
 
-*** Configure a remote for a fork
+** Configure a remote for a fork
 https://help.github.com/articles/configuring-a-remote-for-a-fork/
 
-*** Make a repository from a non empty folder
+** Make a repository from a non empty folder
 #+BEGIN_EXAMPLE
 git init
 git add .
@@ -22,7 +22,7 @@ git remote add origin <project url>
 git push -u origin master
 #+END_EXAMPLE
 
-*** Pick only a few files to be uploaded from a git folder
+** Pick only a few files to be uploaded from a git folder
 Dans le .gitignore :
 #+BEGIN_EXAMPLE
 *
@@ -31,5 +31,5 @@ Dans le .gitignore :
 #+END_EXAMPLE
 
 
-*** Links
+** Links
 [[https://education.github.com/git-cheat-sheet-education.pdf][Github cheat sheet]]
