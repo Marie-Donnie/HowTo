@@ -15,6 +15,7 @@
    - [[#redirect-standard-output-to-a-file-and-stdout][Redirect standard output to a file AND stdout]]
    - [[#tee][Tee]]
    - [[#kill-all-processes-matching-a-pattern][Kill all processes matching a pattern]]
+   - [[#sed][Sed]]
    - [[#links-2][Links]]
 
 * Shell/Bash
@@ -61,6 +62,10 @@ From what I understood, use $() version preferably.
 
 ** Kill all processes matching a pattern
 pkill -f my_pattern
+
+** Sed
+Excellent site to understand everything about sed :
+[[http://www.grymoire.com/Unix/Sed.html]]
 
 ** Links
 + [[http://linuxcommand.org/lc3_learning_the_shell.php][Learning the shell]]
