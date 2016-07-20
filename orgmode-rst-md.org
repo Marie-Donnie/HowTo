@@ -12,6 +12,7 @@ http://stackoverflow.com/questions/16186843/inline-code-in-org-mode
 
 ** Links
 [[http://orgmode.org/org.html][Manual]]
+[[http://ergoemacs.org/emacs/emacs_org_markup.html][Cheat sheet]]
 
 * rst
 
