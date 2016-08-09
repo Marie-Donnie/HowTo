@@ -10,4 +10,4 @@
 [[http://wiki.alpinelinux.org/wiki/Screen_terminal_multiplexer][Quick View]]
 
 ** Nano
-[[http://mintaka.sdsu.edu/reu/nano.html][Key Bindings]]
+[[http://staffwww.fullcoll.edu/sedwards/Nano/NanoKeyboardCommands.html][Key Bindings]]
