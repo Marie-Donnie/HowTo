@@ -23,7 +23,7 @@ git push -u origin master
 #+END_EXAMPLE
 
 ** Pick only a few files to be uploaded from a git folder
-Dans le .gitignore :
+In .gitignore :
 #+BEGIN_EXAMPLE
 *
 !WantedFile1
