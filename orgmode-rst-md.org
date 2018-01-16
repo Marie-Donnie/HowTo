@@ -10,6 +10,13 @@
 ** Verbatim et code inline
 http://stackoverflow.com/questions/16186843/inline-code-in-org-mode
 
+** Hierarchy
+
+To demote current subtree by one level:
+#+BEGIN_SRC
+Alt-Shift-Left
+#+END_SRC
+
 ** Links
 [[http://orgmode.org/org.html][Manual]]
 [[http://ergoemacs.org/emacs/emacs_org_markup.html][Cheat sheet]]
